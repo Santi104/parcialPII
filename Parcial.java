@@ -12,7 +12,7 @@ public class Parcial {
         this.numEjemPrest = numEjemPrest;
     }
 
-    public void Parcial() {
+    public Parcial() {
 
     }
     
@@ -74,7 +74,7 @@ public class Parcial {
         Parcial libro1 = new Parcial("Libro de las maravillas del mundo", "Sebastian Franco", 4, 1);
         libro1.imprimir();
 
-        Parcial libro2 = new Parcial(); /* No pude solucionar este error profesor :( lo intente */
+        Parcial libro2 = new Parcial(); 
 
         System.out.println("Ingresame el titulo del libro");
         libro2.setTitulo(sc.nextLine());
